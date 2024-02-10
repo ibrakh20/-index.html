@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Now</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Banner Section */
+#banner {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Donation Form Section */
+#donation-form {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#donation-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#donation-form label {
+    margin-bottom: 10px;
+}
+
+#donation-form input[type="number"] {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#donation-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#donation-form button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+</style>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Donate Now</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Donate</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container">
+            <h2>Make a Donation</h2>
+            <p>Your generosity can make a difference in someone's life.</p>
+        </div>
+    </section>
+
+    <section id="donation-form">
+        <div class="container">
+            <h2>Donation Form</h2>
+            <form action="#" method="POST">
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" name="amount" min="1" required>
+                <button type="submit">Donate Now</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Donate Now. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
